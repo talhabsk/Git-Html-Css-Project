@@ -15,8 +15,55 @@ p {
   margin: 25px;
 }
 
+.left {
+  float: left;
+  text-align: left;
+  width: 15%; 
+  display: grid;
+  height: 100vh;
+  margin-top: 120px;
+  background-color: aqua;
+}
+
+.center{
+  float: left;
+  text-align: center;
+  width: 70%; 
+  display: grid;
+  height: 100vh;
+  margin-top: 120px;
+  background-color: rgb(255, 241, 43);
+  
+}
+.right {
+  float: right;
+  justify-content: center;
+  flex-direction: row;
+  width: 15%;
+  display: grid;
+  height: 100vh;
+  margin-top: 120px;
+  background-color: aqua;
+  }
+
+.left, .right , .center{
+  font-size: 30px;
+  color: #ff3dd5; 
+
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
 .head1{
   float: left;
+}
+
+.head2{
+  margin: 15px;
+  width: 90px;
+}
+.head3{
+  width: 130px;
 }
 
 header {
